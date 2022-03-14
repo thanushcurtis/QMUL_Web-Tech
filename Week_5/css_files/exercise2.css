@@ -1,0 +1,253 @@
+nav#side
+{
+    float: left;
+    width:15em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin: 1px;
+}
+
+#main
+{
+    max-width: 100%;
+    margin-left: 17em;
+    margin-right: 17em;
+    position: absolute;
+    
+}
+#top
+{
+    padding-bottom: 10em;
+}
+
+div#left
+{
+    padding-top: 20px;
+    width: 60%; 
+    float:left;
+    padding-bottom: 0px;
+}
+div#right
+{
+    width: 30%; 
+    float:right;
+    position: relative;
+    padding-bottom:0px;
+    margin: 0%;
+    
+}
+
+div#main_top
+{
+    padding-top: 20px;
+    
+}
+
+div#bottom
+{
+    width: 50%; 
+    
+}
+
+hr{
+    padding: 0%;
+    width: 100%;
+}
+aside
+{
+    float: right;
+    width: 15em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-left: 80%;
+}
+
+header
+{
+    background-color: rgba(120, 163, 202, 0.692);
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+   
+}
+#top {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+	
+#top li {
+	display: inline;
+    padding-right: 40px;
+}
+
+#top a {
+	text-decoration: none;
+	
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #010e11;
+}
+
+a#c1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Cambria, serif;
+
+}
+section#research
+{
+    background-color: rgba(240, 217, 187, 0.562);
+    padding-left: 10px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    width: 15em;
+    
+}
+section#links
+{
+    background-color: rgba(131, 186, 236, 0.74);
+    padding-left: 10px;
+    width: 15em;
+}
+
+#c2
+{
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    padding-left: 0%;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, serif;
+    float: left;
+    
+}
+#c5
+{
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    padding-left: 0%;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, serif; 
+}
+a#c2{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, serif;
+
+}
+
+#skills
+{
+    background-color: rgba(131, 186, 236, 0.74);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    width: 15em;
+}
+
+#skills h3{
+    background-color:rgba(74, 204, 74, 0.692) ;
+    width: 90%;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left
+{
+  
+    padding-left: 0%;
+    
+}
+
+.caption
+{
+    display: inline;
+    position: relative;
+}
+
+
+
+
+div.rightpane
+{
+    background-color: rgba(131, 186, 236, 0.74);
+    padding-left: 10px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    width: 15em;
+   
+}
+
+div.rightpane h3{
+    background-color:rgba(74, 204, 74, 0.692) ;
+    width: 90%;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#rightpane
+{
+    background-color: white;
+    width: 90%;
+    padding-left:0%;
+    position: relative;
+
+}
+div#leftpane
+{
+    background-color: white;
+    width: 90%;
+    padding-left:0%;
+    margin-top: 20px;
+    float:left;
+}
+
+
+
+ul.rightpane
+{
+    margin: 0%;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    padding-top: 0%;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    padding-left: 0%;
+    list-style: none;
+    position: relative;
+    float:none;
+}
+
+
+ul.rightpane1
+{
+    margin: 0%;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    padding-top: 0%;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    padding-left: 0%;
+    list-style: none;
+    position: absolute;
+    float: none;
+}

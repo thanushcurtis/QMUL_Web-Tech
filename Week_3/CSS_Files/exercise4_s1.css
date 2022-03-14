@@ -1,0 +1,64 @@
+/* body style */
+body
+{
+    margin: 1cm;
+    background-color: grey;
+}
+
+
+/* header style */
+header
+{
+    background-color: green;
+    color: white;
+    padding:0.2cm;
+}
+/* nav style */
+nav
+{
+    background-color: lightcyan;
+    font-weight: bold;
+    color: black;
+
+}
+
+/* link style */
+a
+{
+    color: burlywood;
+    font-weight: bold;
+
+}
+
+/* caption style */
+figcaption
+{
+    color: lightblue;
+    font-style: italic;
+}
+
+/* footer style */
+footer
+{
+    background-color: green;
+    color: white;
+    font-style: italic;
+    padding: 0.2cm;
+
+}
+
+/* overwritten style in footer */
+.c1
+{
+    color: burlywood;
+    background-color: green;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* section style */
+section
+{
+    background-color: white;
+    padding: 0.2cm;
+}
