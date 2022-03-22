@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Week 4 | Excercise 4</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="../css_files/excerise4.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css_files/reset.css">
+</head>
+<body>
+    <datalist id="cities">
+        <option> London </option>
+        <option> Birmingham </option>
+        <option> Glasgow </option>
+        <option> Manchester</option>
+    </datalist>
+    <form  method="post" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php" id="form1">
+        <fieldset>
+            <legend>
+                Shirt Order Form
+            </legend>
+            <p> Shirt Size </p>
+            <select name="shirtsize" required>
+                <option> XS </option>
+                <option> S </option>
+                <option> M </option>
+                <option> L </option>
+                <option> AND </option>
+                <option> XL </option>
+            </select>
+            <p> Sleeves </p>
+            <input type ="radio" name="sleeves" value="Short" required> Short <br>
+            <input type ="radio" name="sleeves" value="Long" required> Long <br>
+            <label> Choose shirt colour </label> <br>
+            <input type="color" name="colorChoice" required> <br>
+            <label> Quantity </label> <br>
+            <input type="number" pattern="[1-10]{1}" name="quantity" required><br>
+            <label> Date Requested </label> <br>
+            <input type="date" name="date" required>
+        </fieldset>
+        <fieldset>
+            <label> Name </label> <br>
+            <input type="text" name="name" required> <br>
+            <label> E-mail </label> <br>
+            <input type="email" name="email" required> <br>
+            <label> Telephone </label><br>
+            <input type="tel" name="telephone" pattern="[0-9]{2}[ -][0-9]{3}[-][0-9]{3}[ -][0-9]{4}" required>
+            <label> Example: 44-207-882-1234</label>
+        </fieldset>
+        <fieldset>
+            <label> Address</label> <br>
+            <input type="text" name="address" required> <br>
+            <label> City </label> <br>
+            <input type="text" name="city" list="cities" required> <br>
+            <label> Postcode </label> <br>
+            <input type="text" name="postcode" required> <br>
+        </fieldset>
+        <fieldset id="c1">
+            <lable> please keep me informed about the future shirt designs </lable>
+            <input type="checkbox" name="accept"> <br>
+            <button type="submit" form="form1">Submit</button>
+            <button type="reset" form="form1" value="Reset">Clear Form</button> 
+        </fieldset>
+    </form>
+</body>
+</html>

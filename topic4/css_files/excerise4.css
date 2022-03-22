@@ -1,0 +1,33 @@
+legend
+{
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    color: white;
+}
+form
+{
+    background-color: rgb(182, 243, 182);
+    margin: 5%;
+    padding: 1%;
+}
+fieldset
+{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: solid 1pt rgb(114, 173, 114);
+}
+
+#c1
+{
+    background-color: white;
+}
+
+button
+{
+    background-color: green;
+    border-radius: 10px;
+
+}

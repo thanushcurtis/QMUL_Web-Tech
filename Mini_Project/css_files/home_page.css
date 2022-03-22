@@ -158,6 +158,19 @@ section h3
   font-family: Chalkduster, fantasy;
   
 }
+section h4
+{ color: #3d3806;
+  font-family: 'Trocchi', serif;
+  font-size: 35px; font-weight: normal;
+  line-height: 48px;
+  margin: 0; 
+  background-color: #5e1075e3;
+  text-align: center;
+  color: white;
+  font-family: Chalkduster, fantasy;
+  
+}
+
 
 section div p{
   padding: 5%;
@@ -224,3 +237,8 @@ figcaption ul li  h2{
   color: black;
   
 }
+section div ul li {
+  color: rgba(0, 0, 0, 0.747);
+  padding-left: 0%;
+}
+
