@@ -1,0 +1,244 @@
+/* nav style */
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0%;
+    padding-bottom: 10px;
+  }
+  
+nav   li {
+    padding-top: 10px;
+    float: left;
+    font-family: Georgia, serif;
+    padding-bottom: 0%;
+    height: 59px;
+
+  }
+  
+nav li h2{
+    margin: 0%;
+    padding-bottom: 0%;
+    
+
+    
+}
+ nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+li a:hover:not(.active) {
+    background-color: #df7cf3;
+  }
+  
+  .active {
+    background-color: #5e1075e3;
+    color: white;
+    padding-bottom: 14px;
+    font-family: Chalkduster, fantasy;
+  }
+nav{
+    padding: 0%;
+    margin-top: 0%;
+    background-color: #333;
+
+}
+
+.nav_image
+{
+    padding-bottom: 14px;
+    height: 59px;
+    width: 59px;
+}
+
+/* part1 */
+.myPic {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.grid-container >div:hover .myPic {
+  opacity: 0.7;
+}
+
+.grid-container >div:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #df7cf3;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  padding: 16px 32px;
+
+}
+
+.firstleft img{
+  max-width: 100%;
+  height: auto;
+}
+.firstright{
+  width:30%;
+  float:left;
+  position: relative;
+  height: 100%;
+  background-color: #df7cf3;
+ 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+
+  
+}
+
+.grid-container > div {
+  background-color:#cc31ebb7;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+
+  
+}
+
+.grid-container > .first_content{
+
+  padding-top: 40%;
+  font-family:Inspiration;
+  font-size: 30px;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 60px;}
+}
+
+.grid-container > .first_content a{
+  text-decoration: none;
+}
+.grid-container > .first_content p{
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+
+/* part2 */
+section{
+  padding-top: 10px;
+}
+section h3
+{ color: #3d3806;
+  font-family: 'Trocchi', serif;
+  font-size: 35px; font-weight: normal;
+  line-height: 48px;
+  margin: 0; 
+  background-color: #5e1075e3;
+  text-align: center;
+  color: white;
+  font-family: Chalkduster, fantasy;
+  
+}
+section h4
+{ color: #3d3806;
+  font-family: 'Trocchi', serif;
+  font-size: 35px; font-weight: normal;
+  line-height: 48px;
+  margin: 0; 
+  background-color: #5e1075e3;
+  text-align: center;
+  color: white;
+  font-family: Chalkduster, fantasy;
+  
+}
+
+
+section div p{
+  padding: 5%;
+  background-color: #df7cf3;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.extra {
+  background-color: #5e1075e3;
+  color: white;
+  padding: 0.5%;
+  font-family: Chalkduster, fantasy;
+  float: right;
+  text-decoration: none;
+
+}
+
+section .basic_layout{
+  padding: 5%;
+  background-color: #df7cf3;
+}
+
+section .left
+{
+  
+  padding-left: 0%;
+  display: flex;
+    
+}
+
+section figure{
+  display: flex;
+  align-items: center;
+  padding: 0%;
+}
+
+section figcaption{
+  float: right;
+  padding: 0%;
+}
+section .caption
+{
+    display: relative;
+    vertical-align: center;
+    position: relative;
+    
+}
+
+#c5
+{
+  list-style: none;
+  
+}
+
+figcaption ul li p{
+  color: rgba(0, 0, 0, 0.747);
+  padding-left: 0%;
+}
+figcaption ul li {
+  color: rgba(75, 69, 69, 0.76);
+}
+figcaption ul li  h2{
+  color: black;
+  
+}
+section div ul li {
+  color: rgba(0, 0, 0, 0.747);
+  padding-left: 0%;
+}
+

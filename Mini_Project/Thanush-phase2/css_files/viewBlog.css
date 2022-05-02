@@ -1,0 +1,233 @@
+
+/* nav style */
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0%;
+    padding-bottom: 10px;
+  }
+  
+nav   li {
+    padding-top: 10px;
+    float: left;
+    font-family: Georgia, serif;
+    padding-bottom: 0%;
+    height: 59px;
+
+  }
+  
+nav li h2{
+    margin: 0%;
+    padding-bottom: 0%;
+    
+
+    
+}
+ nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover:not(.active) {
+    background-color: #df7cf3;
+  }
+  
+  .active {
+    background-color: #5e1075e3;
+    color: white;
+    padding-bottom: 14px;
+    font-family: Chalkduster, fantasy;
+  }
+nav{
+    padding: 0%;
+    margin-top: 0%;
+    background-color: #333;
+
+}
+
+.nav_image
+{
+    padding-bottom: 14px;
+    height: 59px;
+    width: 59px;
+}
+
+body{
+  background-color: #df7cf3;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 250px;
+  gap: 10px;
+  background-color: #df7cf3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #df7cf3;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.child
+{
+  padding-top: 125%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  color: white;
+  min-width: 160px;
+  font-size: smaller;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: smaller;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #5e1075e3;}
+
+
+.btn
+{
+  background-color: #5e1075e3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+div{
+  padding-top: 10px;
+}
+div h3
+{ color: #3d3806;
+  font-family: 'Trocchi', serif;
+  font-size: 35px; font-weight: normal;
+  line-height: 48px;
+  margin: 0; 
+  background-color: #5e1075e3;
+  text-align: center;
+  color: white;
+  font-family: Chalkduster, fantasy;
+  
+}
+div h4
+{ color: #3d3806;
+  font-family: 'Trocchi', serif;
+  font-size: 25px; font-weight: normal;
+  line-height: 48px;
+  margin: 0; 
+  background-color: #5e1075e3;
+  text-align: center;
+  color: white;
+  font-family: Chalkduster, fantasy;
+  
+}
+
+.link {
+  background-color: #5e1075e3;
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+div .extra {
+  background-color: #5e1075e3;
+  color: white;
+  padding: 0.25%;
+  padding-right: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: right;
+  text-decoration: none;
+  
+
+}
+div p{
+
+  color:black;
+  font-size: smaller;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div .basic_layout{
+  padding:2%;
+  padding-bottom:10%;
+  background-color: #df7cf3;
+  
+
+}
+form{
+  
+  color: white;
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float:right;
+  text-decoration: none;
+  position: relative;
+  
+}
+
+form fieldset legend{
+  color: #3d3806;
+  font-family: 'Trocchi', serif;
+  font-size: 35px; font-weight: normal;
+  line-height: 48px;
+  margin: 0; 
+  background-color: #5e1075e3;
+  text-align: center;
+  color: white;
+  font-family: Chalkduster, fantasy;
+}
+
+form fieldset{
+
+  border-radius: 10px;
+  border-radius: 5px;
+  border-color: #3d3806;
+  align-items: center;
+}
+button
+{
+  color: white;
+  background-color:#5e1075e3;
+  border-radius: 10px;
+  align-items: center;
+  
+
+
+}
+fieldset #c1
+{
+  padding-left: 50%;
+  align-items: center;
+}
+
+
